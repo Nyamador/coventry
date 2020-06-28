@@ -13,11 +13,17 @@
 </header> -->
 
 <!-- Nav Menu -->
-<aside>
-
+<aside class="overlay" style="display: none;">
 </aside>
 
 <main>
+
+    <section class="amount" style="display: none;">
+        <label for="" style="margin-bottom: 10px;">Amount</label>
+        <input type="number" style="margin-bottom: 40px;">
+        <button class="pay" style="width: 47%;" id="send-btn">Confirm</button>
+    </section>
+
     <div class="card-wrap">
         <article class="credit-card">
             <div class="card-chip-wrap">
@@ -40,8 +46,7 @@
     </div>
 
     <div class="cta">
-        <button class="send" style="width: 95%;">Send</button>
-        <!-- <button class="pay" style="width: 47%;">Receive</button> -->
+        <button class="send" style="width: 95%;" id="send">Send</button>
     </div>
 
     <div class="transactions">
@@ -84,10 +89,6 @@
         </div>
     </div>
 </main>
-
-<section class="header">
-
-</section>
 
 
 <body>
