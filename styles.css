@@ -10,14 +10,40 @@ header{
     height: 54px;
     text-align: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
+}
+
+header p{
+    margin: 0;
 }
 
 header h1{
     margin: 0;
     font-size: 15px;
+}
+
+.logo{
+    display: flex;
+    position: relative;
+}
+
+.circle-a{
+    position: absolute;
+    left: 20px;
+    background-color: #8b858587;
+}
+
+.circle-b{
+    background-color: #ff8000b0;
+}
+
+.circle-a, .circle-b{
+    border-radius: 50%;
+    height:30px;
+    width: 30px;
 }
 
 .card-wrap{
